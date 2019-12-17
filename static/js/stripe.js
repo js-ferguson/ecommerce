@@ -15,10 +15,10 @@ $(function() {
 
             // Prevent the credit card details from being submitted
             // to our server
-            $("#id_credit_card_number").removeAttr('name');
-            $("#id_cvv").removeAttr('name');
-            $("#id_expiry_month").removeAttr('name');
-            $("#id_expiry_year").removeAttr('name');
+            $("#id_credit_card_number").removeAttr("name");
+            $("#id_cvv").removeAttr("name");
+            $("#id_expiry_month").removeAttr("name");
+            $("#id_expiry_year").removeAttr("name");
 
             form.submit();
         } else {
